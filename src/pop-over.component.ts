@@ -1,7 +1,7 @@
 import {
     Component, OnInit, OnDestroy, Input, ViewChild, ElementRef, Renderer, AfterViewInit
 } from '@angular/core';
-import { Observable, Subject, Subscription, BehaviorSubject } from 'rxjs/Rx';
+import { Observable, Subject, Subscription, BehaviorSubject } from 'rxjs';
 @Component({
     selector: 'pop-over',
     styles: [
